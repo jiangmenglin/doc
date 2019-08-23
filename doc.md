@@ -1,5 +1,19 @@
 ### DOC
 
+## Linux 下安装 jdk 的配置
+
+- vim /etc/profile
+
+```
+export JAVA_HOME=/usr/local/java/jdk-11.0.4 //你的jdk路径
+export JRE_HOME=/$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+```
+
+- source /etc/profile
+- java -version
+
 ## Linux 下 docker 安装
 
 [docker](https://www.docker.com/)官方网站
