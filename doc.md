@@ -28,6 +28,8 @@ centos 下 docker 的[安装参考](https://docs.docker.com/install/linux/docker
 进入目录找到 build.gradle 文件
 cas 构建时要注释掉 git 这里
 
+[参考这里](http://www.youmeek.com/gradle-cas/)和[这篇博文](https://blog.csdn.net/weisheixiaoxin/article/details/79338614)
+
 ```
 /*
         Open the project git repository in the current directory.
