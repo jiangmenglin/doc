@@ -50,6 +50,7 @@ currentRevision = "cas-6.1.0-RC4"
 注释用到的仓库
 repositories {
         mavenLocal()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
         jcenter()
 //        maven { url "https://maven.eveoh.nl/content/repositories/releases" }
         maven { url "https://plugins.gradle.org/m2/" }
